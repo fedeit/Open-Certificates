@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+// Functions to open different endpoints based on the social network
 function getFacebookLink() {
     openSharePage('https://www.facebook.com/sharer/sharer.php?u=' + window.location.href);
 }
@@ -14,10 +15,10 @@ function getTwitterShare() {
     openSharePage("https://twitter.com/intent/tweet?url=" + window.location.href);
 }
 
+// Function to open a popup window with a specific dimension
 function openSharePage(url) {
     window.open(
         url, 
-        'facebook-share-dialog', 
         'width=626,height=436'
     ); 
 }
