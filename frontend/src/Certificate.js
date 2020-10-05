@@ -8,7 +8,7 @@ import getCertificate from './api/certificates.js'
 function Certificate() {
     let orgLogo = "assets/img/logo.png";
     // Get the current pathname e.g. /idofcertificate and remove /
-    let id = window.location.pathname.replace("/", "")
+    let id = window.location.pathname.replace("/", "");
     // Request the db or collection for the certificate
     let certificate = getCertificate(id);
     // If no certificate, render an error
