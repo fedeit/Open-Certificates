@@ -33,7 +33,7 @@ function Footer() {
                 <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" onClick={ getLinkedInLink }><i class="icon-social-linkedin"></i></a></li>
                 <li class="list-inline-item">&nbsp;<a class="text-white social-link rounded-circle" onClick={ getTwitterShare }><i class="icon-social-twitter"></i></a></li>
             </ul>
-            <p class="text-muted mb-0 small">This is an open source platform built by Federico Galbiati, check it out at github.com/fedeit/open-certificates!</p>
+            <p class="text-muted mb-0 small">This is an open source platform built by Federico Galbiati, check it out at <a href="https://github.com/fedeit/open-certificates">github.com/fedeit/open-certificates!</a></p>
         </div>
         <a class="js-scroll-trigger scroll-to-top rounded" href="#page-top"><i class="fa fa-angle-up"></i></a>
     </footer>
