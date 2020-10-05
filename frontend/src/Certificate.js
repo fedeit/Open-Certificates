@@ -4,21 +4,20 @@ import './App.css';
 // Certificate data api
 import getCertificate from './api/certificates.js'
 
-let absoluteStyle = {
-    position: 'absolute',
-    top: '25%',
-    width: '100%'
-}
 
 function Certificate() {
+    // Get the current pathname e.g. /idofcertificate and remove /
     let id = window.location.pathname.replace("/", "")
+    // Request the db or collection for the certificate
     let certificate = getCertificate(id);
+    // If no certificate, render an error
     if (certificate === undefined) {
         return (<div class="container" style={{margin: '0px 60px'}, {width: '100%'}}>
                     <h3>Invalid link! Certificate does not exist!</h3>
                 </div>
                 )
     }
+    // Else render the certificate page
     return (<div class="container" style={{margin: '0px 60px'}, {width: '100%'}}>
                 <div class="row">
                     <div class="col-auto col-md-6">
