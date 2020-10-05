@@ -34,7 +34,7 @@ function Certificate() {
                     <div class="col-md-6" style={{width: '70%'}}>
                         <img style={{top: '0px', left: '0px', width: '100%', height: '100%'}} src="assets/img/certificate-img.png" />
                         <div style={{position: 'absolute'}, {left: '40px'}, {top: '30%'}, {width: '50%'}, {height: '90%'}}>
-                            <img style={{position: 'absolute', left: '8%', top: '8%', height: '50px'}} src="logo.png"/>
+                            <img style={{position: 'absolute', left: '8%', top: '8%', height: '50px'}} src="assets/img/logo.png"/>
                             <h5 class="text-center" style={{position: 'absolute', width: '70%', top: '25%',}}>Certificate of Appreciation</h5>
                             <p class="text-center" style={{position: 'absolute', width: '70%', top: '40%'}}>Presented To</p>
                             <h4 class="text-center" style={{position: 'absolute', width: '70%', top: '50%'}}><strong>{ certificate.recipient }</strong></h4>
