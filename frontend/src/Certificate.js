@@ -11,7 +11,8 @@ let absoluteStyle = {
 }
 
 function Certificate() {
-    let certificate = getCertificate("id");
+    let id = window.location.pathname.replace("/", "")
+    let certificate = getCertificate(id);
     if (certificate === undefined) {
         return (<div class="container" style={{margin: '0px 60px'}, {width: '100%'}}>
                     <h3>Invalid link! Certificate does not exist!</h3>
