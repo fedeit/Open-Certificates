@@ -1,5 +1,5 @@
 # Open-Certificates
-A platform built in React to create custom web course or activity completion certificates similar to the ones released by Coursera and EDx. The certificates are sharable with a URL of type example.com/AbcDeFG
+A platform built in React to create custom, link-sharable, course or activity completion certificates similar to the ones released by Coursera and EDx. The certificates are sharable with a URL of type example.com/AbcDeFG
 The platform is built fully in React. Currently, it does not support databases, but the integrations for MongoDB and Firebase are coming soon.
 
 
