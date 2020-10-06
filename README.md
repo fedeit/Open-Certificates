@@ -23,3 +23,10 @@ Each certificate object should have the following parameters:
 - A type, recipient, date, description and signature to display in the info section or in the certificate area.
 - A sponsor parameter (optional) containing the image href link. If specificed, this logo will be displayed to the right of the orgLogo (defined in part 1).
 - The date is simply treated as a string, therefore there is no need for specific formatting.
+
+Try out the demo at: https://open-certificate-demo.netlify.app/wYgaaTEsQO
+
+Some pros of using this platform:
+- No need for a server, you can host unlimited for free on Netlify
+- No need to use an API or Database for a small number of certificates
+- Setup in just a few minutes
