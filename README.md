@@ -39,6 +39,6 @@ Some pros of using this platform:
 ### Suggested way to deploy it
 The easiest way to use this project for free is probably to:
 1. Setup a Netlify account
-2. Connect a Netlify site with a fork/clone of this repository
+2. Connect a Netlify site to a fork/clone of this repository
 3. Setup CI on Netlify (remember the netlify.yaml file)
 4. Each time you want to add a certificate, simply modify the certs.json file, and push to GitHub. The CI pipeline will make Netlify redeploy automatically with the new certificate.
