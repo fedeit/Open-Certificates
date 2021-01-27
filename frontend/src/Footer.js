@@ -22,15 +22,19 @@ function openSharePage(url) {
     ); 
 }
 
+let noBorder = {
+    border: '0px'
+}
+
 function Footer() {
   return (<div>
     <footer className="footer text-center">
         <div className="container">
             <ul className="list-inline mb-5">
-                <li className="list-inline-item">&nbsp;<a className="text-white social-link rounded-circle" onClick={ getFacebookLink }><i className="icon-social-facebook"></i></a>
+                <li className="list-inline-item">&nbsp;<button className="text-white social-link rounded-circle" style={noBorder} onClick={ getFacebookLink }><i className="icon-social-facebook"></i></button>
             </li>
-                <li className="list-inline-item">&nbsp;<a className="text-white social-link rounded-circle" onClick={ getLinkedInLink }><i className="icon-social-linkedin"></i></a></li>
-                <li className="list-inline-item">&nbsp;<a className="text-white social-link rounded-circle" onClick={ getTwitterShare }><i className="icon-social-twitter"></i></a></li>
+                <li className="list-inline-item">&nbsp;<button className="text-white social-link rounded-circle" style={noBorder} onClick={ getLinkedInLink }><i className="icon-social-linkedin"></i></button></li>
+                <li className="list-inline-item">&nbsp;<button className="text-white social-link rounded-circle" style={noBorder} onClick={ getTwitterShare }><i className="icon-social-twitter"></i></button></li>
             </ul>
             <p className="text-muted mb-0 small">This is an open source platform built by Federico Galbiati, check it out at <a href="https://github.com/fedeit/open-certificates">github.com/fedeit/open-certificates!</a></p>
         </div>
