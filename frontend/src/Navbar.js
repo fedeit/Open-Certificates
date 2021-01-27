@@ -5,7 +5,7 @@ import './App.css';
 function Navbar() {
   // Name and link of the organization to be rendered in the navbar
   let companyName = process.env.REACT_APP_COMPANY_NAME;
-  let companyLink = process.env.REACT_APP_LINK
+  let companyLink = process.env.REACT_APP_COMPANY_LINK
   // Where the logo is located
   let logo = "assets/img/logo.png"
   return (
